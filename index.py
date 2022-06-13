@@ -19,9 +19,9 @@ def programming_experience():
     return render_template("programming_experience.html")
 
 
-# @app.route("/projects.html")
-# def projects():
-#     return render_template("projects.html")
+@app.route("/projects.html")
+def projects():
+    return render_template("projects.html")
 
 
 if __name__ == '__main__':
