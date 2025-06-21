@@ -1,6 +1,6 @@
 #import "@preview/basic-resume:0.2.8": *
 
-// Put your personal information here, replacing mine
+// Put your personal information here
 #let name = "Ethan T. Blake"
 #let location = "Mesa, Az"
 #let email = "ethanblake417@gmail.com"
@@ -27,46 +27,6 @@
   personal-info-position: left,
 )
 
-/*
-* Lines that start with == are formatted into section headings
-* You can use the specific formatting functions if needed
-* The following formatting functions are listed below
-* #edu(dates: "", degree: "", gpa: "", institution: "", location: "", consistent: false)
-* #work(company: "", dates: "", location: "", title: "")
-* #project(dates: "", name: "", role: "", url: "")
-* certificates(name: "", issuer: "", url: "", date: "")
-* #extracurriculars(activity: "", dates: "")
-* There are also the following generic functions that don't apply any formatting
-* #generic-two-by-two(top-left: "", top-right: "", bottom-left: "", bottom-right: "")
-* #generic-one-by-two(left: "", right: "")
-*/
-
-== Education
-
-#edu(
-  institution: "Georgia Institute of Technology",
-  location: "Atlanta, Georgia",
-  dates: dates-helper(start-date: "Jan 2024", end-date: "Present"),
-  degree: "Master of Science, Computer Science",
-)
-- GPA: 3.25, Dean's List
-
-#edu(
-  institution: "Oregon State University",
-  location: "Corvallis, Oregon",
-  dates: dates-helper(start-date: "Jan 2021", end-date: "December 2022"),
-  degree: "Bachelor of Science, Computer Science",
-)
-- GPA: 3.91, Dean's List
-
-#edu(
-  institution: "Arizona State University",
-  location: "Tempe, Arizona",
-  dates: dates-helper(start-date: "Aug 2014", end-date: "May 2018"),
-  degree: "Bachelor of Music, Vocal Performance",
-)
-- GPA: 3.84, Dean's List
-
 == Work Experience
 
 #work(
@@ -92,33 +52,63 @@
 == Projects
 
 #project(
-  name: "Grid-Test-GUI",
+  name: "92LE Packet Capture", 
+  url: "",
 )
-- Developed a Python GUI for controlling various instruments, including a dc power supply, extinction ratio meter, oscilloscope, multimeters, and ovens
-- Implemented synchronous data collection using multiprocessing and threading
-- Enabled live data manipulation, collection, and visualization
+- Technologies: Python, PySide6, pyqtgraph, numpy, scapy, scipy
+- Solves: 4khz data collection (92LE protocol), visualization and manipulation
+
+#project(
+  name: "Grid-Test-GUI",
+  url: "",
+)
+- Technologies: Tkinter, matplotlib, pandas, numpy, PyVISA, scapy, pyserial, Cython
+- Solves: modular synchronous data collection with up to 15 instruments with live visualization and data manipulation
 
 #project(
   name: "Source-Screen-Calculator",
+  url: "",
 )
-- Development: Utilized Pandas, Numpy, Numba, and Cuda to calculate micrometer-scale light travel
-- Complexity: Addressed an O(n^4) problem due to short distances
-- Scale: Handled calculations for 1000x1000 source and screen arrays, equating to trillions of computations
-- Optimization: Used Cuda for GPU calculations and Numba for CPU parallelization, dividing the tasks
-- Result: Achieved a ~150x speedup, streamlining complex calculations
+- Technologies: Pandas, numpy, cuda, PySide6
+- Solves: O(n^4) calculations problem with trillions of computations by using CPU parallelization and GPU computation for 150x speedup
 
 #project(
   name: "CS344 Small-SH",
-  url: "GitHub",
+  url: "https://github.com/EthanBlake417/cs344-smallsh",
 )
 - Created a C program in Linux that mimics some Bash Shell functionality, (e.g., ls, <, >, pwd, cd) for an OSU school project
+== Education
 
+#edu(
+  institution: "Georgia Institute of Technology",
+  location: "Atlanta, Georgia",
+  dates: dates-helper(start-date: "Jan 2024", end-date: "Present"),
+  degree: "Master of Science, Computer Science",
+)
+- GPA: 3.25
+
+#edu(
+  institution: "Oregon State University",
+  location: "Corvallis, Oregon",
+  dates: dates-helper(start-date: "Jan 2021", end-date: "December 2022"),
+  degree: "Bachelor of Science, Computer Science",
+)
+- GPA: 3.91
+
+#edu(
+  institution: "Arizona State University",
+  location: "Tempe, Arizona",
+  dates: dates-helper(start-date: "Aug 2014", end-date: "May 2018"),
+  degree: "Bachelor of Music, Vocal Performance",
+)
+- GPA: 3.84
 
 == Awards
 
 - PSAT National Merit Scholar
+- Dean's List (at every instution)
 
 == Skills
 
-- *Languages*: Python, C, C++, HTML, CSS, MASM 32-bit Assembly, JavaScript, SystemVerilog, Typst
-- *Technologies*: PyVISA, Matplotlib, Tkinter, Pandas, Multiprocessing, Numpy, Ctypes, Cython, Numba, Eel, Cuda, OpenCL, Open MP Parallel Programming, Open MPI Parallel Computing, Linux, APIs, Flask, Xilinx Vivado, Docker
+- *Languages*: Python, C, C++, HTML, CSS, MASM 32-bit Assembly, JavaScript, SystemVerilog, Typst, Flutter
+- *Technologies*: PyVISA, Matplotlib, Tkinter, Pandas, Multiprocessing, Numpy, Ctypes, Cython, Numba, Eel, Cuda, OpenCL, Open MP Parallel Programming, Open MPI Parallel Computing, Linux, APIs, Flask, Docker, LLMs
