@@ -72,11 +72,11 @@
 - Technologies: Pandas, numpy, cuda, PySide6
 - Solves: O(n^4) calculations problem with trillions of computations by using CPU parallelization and GPU computation for 150x speedup
 
-#project(
-  name: "CS344 Small-SH",
-  url: "https://github.com/EthanBlake417/cs344-smallsh",
-)
-- Created a C program in Linux that mimics some Bash Shell functionality, (e.g., ls, <, >, pwd, cd) for an OSU school project
+// #project(
+//   name: "CS344 Small-SH",
+//   url: "https://github.com/EthanBlake417/cs344-smallsh",
+// )
+// - Created a C program in Linux that mimics some Bash Shell functionality, (e.g., ls, <, >, pwd, cd) for an OSU school project
 
 #project(
   name: "Guess It",
@@ -114,7 +114,7 @@
 == Awards
 
 - PSAT National Merit Scholar
-- Dean's List (at every instution)
+// - Dean's List (at every instution)
 
 == Skills
 
