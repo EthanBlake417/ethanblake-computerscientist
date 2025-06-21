@@ -77,6 +77,14 @@
   url: "https://github.com/EthanBlake417/cs344-smallsh",
 )
 - Created a C program in Linux that mimics some Bash Shell functionality, (e.g., ls, <, >, pwd, cd) for an OSU school project
+
+#project(
+  name: "Guess It",
+  url: "",
+)
+- Technologies: Flutter, Firebase
+- Group word guessing/description game with customizable categories and words
+
 == Education
 
 #edu(
@@ -85,7 +93,7 @@
   dates: dates-helper(start-date: "Jan 2024", end-date: "Present"),
   degree: "Master of Science, Computer Science",
 )
-- GPA: 3.25
+- GPA: 3.25/\4.0
 
 #edu(
   institution: "Oregon State University",
@@ -93,7 +101,7 @@
   dates: dates-helper(start-date: "Jan 2021", end-date: "December 2022"),
   degree: "Bachelor of Science, Computer Science",
 )
-- GPA: 3.91
+- GPA: 3.91/\4.0
 
 #edu(
   institution: "Arizona State University",
@@ -101,7 +109,7 @@
   dates: dates-helper(start-date: "Aug 2014", end-date: "May 2018"),
   degree: "Bachelor of Music, Vocal Performance",
 )
-- GPA: 3.84
+- GPA: 3.84/\4.0
 
 == Awards
 
@@ -111,4 +119,4 @@
 == Skills
 
 - *Languages*: Python, C, C++, HTML, CSS, MASM 32-bit Assembly, JavaScript, SystemVerilog, Typst, Flutter
-- *Technologies*: PyVISA, Matplotlib, Tkinter, Pandas, Multiprocessing, Numpy, Ctypes, Cython, Numba, Eel, Cuda, OpenCL, Open MP Parallel Programming, Open MPI Parallel Computing, Linux, APIs, Flask, Docker, LLMs
+- *Technologies*: PyVISA, Matplotlib, Tkinter, Pandas, Multiprocessing, Numpy, Ctypes, Cython, Numba, Eel, Cuda, OpenCL, Open MP Parallel Programming, Open MPI Parallel Computing, Linux, APIs, Flask, Docker, LLMs, Git, Github, Firebase
