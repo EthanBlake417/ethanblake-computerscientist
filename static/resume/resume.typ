@@ -53,7 +53,7 @@
 
 #project(
   name: "92LE Packet Capture", 
-  url: "",
+  url: "https://www.youtube.com/watch?v=5m_N3cq8OnE",
 )
 - Technologies: Python, PySide6, pyqtgraph, numpy, scapy, scipy
 - Solves: 4khz data collection (92LE protocol), visualization and manipulation
